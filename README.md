@@ -33,7 +33,8 @@ Change
 ```
 to the actual urls of the stream <br>
 <br>
-Add additional URLs as required
+Add additional URLs as required <br>
+You can leave URLs of channels that are not currently live in the script as it will only pull the channels that it finds an active live stream
 
 ### How to run
 ```
