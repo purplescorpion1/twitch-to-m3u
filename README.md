@@ -43,3 +43,6 @@ Output will be twitch.m3u containing available live streams
 
 
 Add/remove urls as required
+
+### Optional steps
+Create a dummy EPG using a dummy EPG script e.g. from https://github.com/yurividal/dummyepgxml
