@@ -39,7 +39,8 @@ Add additional URLs as required
 ```
 node twitch.js
 ```
-Output will be twitch.m3u containing available live streams
+Output will be twitch.m3u containing available live streams <br>
+Run script each time the streamer you want to watch goes live
 
 
 Add/remove urls as required
