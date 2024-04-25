@@ -31,7 +31,7 @@ Change
   'https://www.twitch.tv/stream1',
   'https://www.twitch.tv/stream2',
 ```
-to the actual urls of the stream <br>
+to the actual URLs of the stream (change stream1 and stream2 to the username of the streamers at the end of the URL) <br>
 <br>
 Add additional URLs as required <br>
 You can leave URLs of channels that are not currently live in the script as it will only pull the channels that it finds an active live stream
