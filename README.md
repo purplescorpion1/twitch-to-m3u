@@ -6,7 +6,7 @@ Method 1 - Automatic on windows via the twitch API using python - Will pull live
 Method 2 - Manual on any opperating system using node - Will pull live streams of the URLs you add to script
 
 ### Method 1 Requirements
-Download the exe from the releases section <br>
+Download the exe from the releases section https://github.com/purplescorpion1/twitch-to-m3u/releases <br>
 python with pip only if you get errors about dependencies so you can manually install them
 
 ### How to run
