@@ -1,7 +1,47 @@
 # twitch-to-m3u
 Pulls the live stream of twitch channels into an m3u
 
-### Requirements
+## Choose method to run
+Method 1 - Automatic on windows using twitch API using python <br>
+Method 2 - Manual on any opperating system using node
+
+### Method 1 Requirements
+Download the exe from the releases section <br>
+python with pip only if you get errors about dependencies so you can manually install them
+
+### How to run
+Run Twitch_Followed.exe <br>
+It will ask for the <br> 
+Access token <br>
+Client ID <br>
+User ID <br>
+ <br>
+Go to https://twitchtokengenerator.com/  <br>
+Under available token scopes set user:read:follows to Yes  <br>
+ <br>
+Scroll down and click generate token - sign in/authorize twitch to use  <br>
+Verify captcha  <br>
+ <br>
+Under generated tokens  <br> 
+Copy access token to Twitch_Followed console  <br>
+Copy client id to Twitch_Followed console  <br>
+ <br>
+Go to https://www.streamweasels.com/tools/convert-twitch-username-to-user-id/  <br>
+Enter your twitch username  <br>
+Convert twitch username to ID  <br>
+Copy Twitch ID to Twitch_Followed console  <br>
+ <br>
+It will then output twitch_followed.m3u
+ <br>
+
+If any errors in running the exe you can manually install the dependencies 
+```
+pip install requests
+pip install configparser
+pip install streamlink 
+```
+
+### Method 2 Requirements
 Node.js https://nodejs.org/en
 
 ### How to install
