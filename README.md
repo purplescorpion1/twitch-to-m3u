@@ -2,8 +2,8 @@
 Pulls the live stream of twitch channels into an m3u
 
 ## Choose method to run
-Method 1 - Automatic on windows using twitch API using python <br>
-Method 2 - Manual on any opperating system using node
+Method 1 - Automatic on windows using twitch API using python - Will pull live streams of the people you follow <br>
+Method 2 - Manual on any opperating system using node - Will pull live streams of the URLs you add to script
 
 ### Method 1 Requirements
 Download the exe from the releases section <br>
