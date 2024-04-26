@@ -33,7 +33,9 @@ Copy Twitch ID to Twitch_Followed console  <br>
  <br>
 It will then output twitch_followed.m3u
  <br>
-
+<br>
+If you need to change your token details etc you can by either editing config.ini or delete config.ini and start again <br>
+<br>
 If any errors in running the exe you can manually install the dependencies 
 ```
 pip install requests
