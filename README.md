@@ -27,12 +27,12 @@ Verify captcha  <br>
  <br>
 Under generated tokens  <br> 
 Copy access token to Twitch_Followed to cmd window  <br>
-Copy client id to Twitch_Followed to cmd window  <br>
+Copy client id to Twitch_Followed cmd window  <br>
  <br>
 Go to https://www.streamweasels.com/tools/convert-twitch-username-to-user-id/  <br>
 Enter your twitch username  <br>
 Convert twitch username to ID  <br>
-Copy Twitch ID to Twitch_Followed to cmd window  <br>
+Copy Twitch ID to Twitch_Followed cmd window  <br>
  <br>
 Go to https://www.twitch.tv/ sign in and view a stream <br>
 Open the developer tools of web browser (ctrl + shift + I) <br>
@@ -45,7 +45,7 @@ document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=
 ```
 
 Copy the resulting string consisting of 30 alphanumerical characters without any quotations <br>
-Copy TwitchOAuth to Twitch_Followed to cmd window <br>
+Copy TwitchOAuth to Twitch_Followed cmd window <br>
  <br>
 
 It will then output twitch_followed.m3u
