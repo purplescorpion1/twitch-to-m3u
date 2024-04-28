@@ -94,6 +94,30 @@ to the actual URLs of the stream (change stream1 and stream2 to the username of 
 Add additional URLs as required <br>
 You can leave URLs of channels that are not currently live in the script as it will only pull the channels that it finds an active live stream
 
+### Optional configure
+You can add your twitch0auth in to remove the commercial break in progress screen from the channels you subscribe to <br>
+Go to https://www.twitch.tv/ sign in and view a stream <br>
+Open the developer tools of web browser (ctrl + shift + I) <br>
+Go to the console <br>
+ <br>
+Type (you may have to type confirmation to enable pasting of code into console first)
+```
+document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=")[1]
+```
+
+Copy the resulting string consisting of 30 alphanumerical characters without any quotations <br>
+
+Open live.py with notepad++ (or any coding text editor) <br>
+Change
+```
+streamlink_process = subprocess.Popen(['streamlink', url, 'best', '--json', '--twitch-disable-ads', '--twitch-low-latency'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+```
+To 
+```
+streamlink_process = subprocess.Popen(['streamlink', '--twitch-api-header=Authorization=OAuth abcdefghigklmnop', 'twitch.tv/' + channelName, 'best', '--json', '--twitch-disable-ads', '--twitch-low-latency'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+```
+Changing abcdefghigklmnop to your twitch0auth
+
 ### How to run
 ```
 node twitch.js
