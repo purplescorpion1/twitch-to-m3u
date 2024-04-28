@@ -17,7 +17,7 @@ It will ask for the <br>
 Access token <br>
 Client ID <br>
 User ID <br>
-Twitch 0Auth <br>
+Twitch OAuth <br>
  <br>
 Go to https://twitchtokengenerator.com/  <br>
 Under available token scopes set user:read:follows to Yes  <br>
@@ -44,7 +44,7 @@ document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=
 ```
 
 Copy the resulting string consisting of 30 alphanumerical characters without any quotations <br>
-Copy Twitch0Auth to Twitch_Followed to cmd window <br>
+Copy TwitchOAuth to Twitch_Followed to cmd window <br>
  <br>
 
 It will then output twitch_followed.m3u
@@ -116,7 +116,7 @@ To
 ```
 streamlink_process = subprocess.Popen(['streamlink', '--twitch-api-header=Authorization=OAuth abcdefghigklmnop', 'twitch.tv/' + channelName, 'best', '--json', '--twitch-disable-ads', '--twitch-low-latency'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 ```
-Changing abcdefghigklmnop to your twitch0auth
+Changing abcdefghigklmnop to your twitchOauth (there is space between OAuth and your token code) 
 
 ### How to run
 ```
