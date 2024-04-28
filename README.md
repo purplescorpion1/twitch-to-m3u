@@ -100,7 +100,8 @@ Go to https://www.twitch.tv/ sign in and view a stream <br>
 Open the developer tools of web browser (ctrl + shift + I) <br>
 Go to the console <br>
  <br>
-Type (you may have to type confirmation to enable pasting of code into console first)
+Type (you may have to type confirmation to enable pasting of code into console first)  <br>
+
 ```
 document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=")[1]
 ```
