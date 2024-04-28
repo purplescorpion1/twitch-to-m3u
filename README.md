@@ -10,11 +10,14 @@ Download the exe from the releases section https://github.com/purplescorpion1/tw
 python with pip only if you get errors about dependencies so you can manually install them
 
 ### How to run
-Run Twitch_Followed.exe <br>
+Note if you used a previous version you may have to rename config.ini to anything else so you can recreate it. You can copy and paste existing details from it into the cmd window when asked and then add anything additional <br>
+
+<p> Run Twitch_Followed.exe <br>
 It will ask for the <br> 
 Access token <br>
 Client ID <br>
 User ID <br>
+Twitch 0Auth <br>
  <br>
 Go to https://twitchtokengenerator.com/  <br>
 Under available token scopes set user:read:follows to Yes  <br>
@@ -23,14 +26,27 @@ Scroll down and click generate token - sign in/authorize twitch to use  <br>
 Verify captcha  <br>
  <br>
 Under generated tokens  <br> 
-Copy access token to Twitch_Followed console  <br>
-Copy client id to Twitch_Followed console  <br>
+Copy access token to Twitch_Followed to cmd window  <br>
+Copy client id to Twitch_Followed to cmd window  <br>
  <br>
 Go to https://www.streamweasels.com/tools/convert-twitch-username-to-user-id/  <br>
 Enter your twitch username  <br>
 Convert twitch username to ID  <br>
-Copy Twitch ID to Twitch_Followed console  <br>
+Copy Twitch ID to Twitch_Followed to cmd window  <br>
  <br>
+Go to https://www.twitch.tv/ sign in and view a stream <br>
+Open the developer tools of web browser (ctrl + shift + I) <br>
+Go to the console <br>
+ <br>
+Type (you may have to type confirmation to enable pasting of code into console first)
+```
+document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=")[1]
+```
+
+Copy the resulting string consisting of 30 alphanumerical characters without any quotations <br>
+Copy Twitch0Auth to Twitch_Followed to cmd window <br>
+ <br>
+
 It will then output twitch_followed.m3u
  <br>
 <br>
