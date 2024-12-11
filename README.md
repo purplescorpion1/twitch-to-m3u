@@ -52,12 +52,12 @@ Streamlink installed and available at path - https://streamlink.github.io/instal
 ```
 node twitch_followed.js
 ```
-
-It will ask for the
-User ID (Twitch username converted to ID)
-Twitch 0Auth 
-Access token
-ClientID
+<br>
+It will ask for the <br>
+User ID (Twitch username converted to ID) <br>
+Twitch 0Auth <br>
+Access token <br>
+ClientID <br>
 
 ### How to setup
 
