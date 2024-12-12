@@ -55,7 +55,7 @@ node twitch_followed.js
 <br>
 It will ask for the <br>
 User ID (Twitch username converted to ID) <br>
-Twitch 0Auth <br>
+Twitch OAuth <br>
 Access token <br>
 ClientID <br>
 
@@ -75,7 +75,7 @@ Type (you may have to type confirmation to enable pasting of code into console f
 document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=")[1]
 ```
 Copy the resulting string consisting of 30 alphanumerical characters without any quotations <br>
-Copy Twitch 0Auth to Twitch_Followed to cmd/terminal <br>
+Copy Twitch OAuth to Twitch_Followed to cmd/terminal <br>
 <br>
 Go to https://twitchtokengenerator.com/ <br>
 Under available token scopes set user:read:follows to Yes <br>
