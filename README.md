@@ -75,7 +75,7 @@ Type (you may have to type confirmation to enable pasting of code into console f
 document.cookie.split("; ").find(item=>item.startsWith("auth-token="))?.split("=")[1]
 ```
 Copy the resulting string consisting of 30 alphanumerical characters without any quotations <br>
-Copy Twitch0Auth to Twitch_Followed to cmd/terminal <br>
+Copy Twitch 0Auth to Twitch_Followed to cmd/terminal <br>
 <br>
 Go to https://twitchtokengenerator.com/ <br>
 Under available token scopes set user:read:follows to Yes <br>
@@ -84,8 +84,8 @@ Scroll down and click generate token - sign in/authorize twitch to use <br>
 Verify captcha <br>
 <br>
 Under generated tokens <br>
-Copy access token to Twitch_Followed to cmd/terminal <br>
-Copy client id to Twitch_Followed to cmd/terminal <br>
+Copy Access Token to Twitch_Followed to cmd/terminal <br>
+Copy ClientID to Twitch_Followed to cmd/terminal <br>
 <br>
 It will then output twitch_followed.m3u
 <br>
