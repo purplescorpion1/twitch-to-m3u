@@ -64,7 +64,7 @@ ClientID <br>
 Go to https://www.streamweasels.com/tools/convert-twitch-username-to-user-id/ <br>
 Enter your twitch username <br>
 Convert twitch username to ID <br>
-Copy User ID to (Twitch username converted to ID) Twitch_Followed to cmd/terminal <br>
+Copy User ID (Twitch username converted to ID) to Twitch_Followed to cmd/terminal <br>
 <br>
 Go to https://www.twitch.tv sign in and view a stream <br>
 Open the developer tools of web browser (cntrl + shift + I) <br>
