@@ -23,7 +23,7 @@ ClientID <br>
 See "How to setup"
 
 ### Method 2 Requirements
-Node.js https://nodejs.org/en
+Node.js https://nodejs.org/en <br>
 Streamlink available at path https://streamlink.github.io/install.html
 
 ### How to install
