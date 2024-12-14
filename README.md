@@ -2,10 +2,11 @@
 Pulls the live stream of twitch channels into an m3u
 
 ## Choose method to run
-Method 1 - Automatic on windows using the packaged nodejs exe from the releases section <br>
+Method 1 - Run the exe to install modules and automatically extract the m3u (credentials need entering first launch only) <br>
 Method 2 - Use the nodejs script
 
 ### Method 1 Requirements
+Nodejs https://nodejs.org/en
 Download the exe from the releases section https://github.com/purplescorpion1/twitch-to-m3u/releases <br>
 Streamlink available at path https://streamlink.github.io/install.html
 
