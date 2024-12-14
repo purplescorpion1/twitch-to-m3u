@@ -6,7 +6,7 @@ Method 1 - Run the exe to install modules and automatically extract the m3u (cre
 Method 2 - Use the nodejs script
 
 ### Method 1 Requirements
-Nodejs https://nodejs.org/en
+Nodejs https://nodejs.org/en <br>
 Download the exe from the releases section https://github.com/purplescorpion1/twitch-to-m3u/releases <br>
 Streamlink available at path https://streamlink.github.io/install.html
 
