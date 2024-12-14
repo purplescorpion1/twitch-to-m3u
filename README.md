@@ -7,29 +7,23 @@ Method 2 - Use the nodejs script
 
 ### Method 1 Requirements
 Download the exe from the releases section https://github.com/purplescorpion1/twitch-to-m3u/releases <br>
-python with pip only if you get errors about dependencies so you can manually install them
+Streamlink available at path https://streamlink.github.io/install.html
 
 ### How to run
 Note if you used a previous version you may have to rename config.ini to anything else so you can recreate it. You can copy and paste existing details from it into the cmd window when asked and then add anything additional <br>
 
 <p> Run Twitch_Followed.exe <br>
-It will ask for the <br> 
-Access token <br>
-Client ID <br>
-User ID <br>
+It will ask for the <br>
+User ID (Twitch username converted to ID) <br>
 Twitch OAuth <br>
+Access token <br>
+ClientID <br>
 
 See "How to setup"
 
-If any errors manually install these dependencies
-```
-pip install requests
-pip install configparser
-pip install streamlink 
-```
-
 ### Method 2 Requirements
 Node.js https://nodejs.org/en
+Streamlink available at path https://streamlink.github.io/install.html
 
 ### How to install
 ``` 
@@ -46,7 +40,6 @@ cd twitch-to-m3u
 npm install puppeteer node-fetch ini readline-sync
 ```
 <p></p>
-Streamlink installed and available at path - https://streamlink.github.io/install.html
 
 ### How to run
 ```
